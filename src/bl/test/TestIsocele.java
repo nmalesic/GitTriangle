@@ -15,4 +15,12 @@ public class TestIsocele {
 		assertTrue(triangle.isIsocele());
 	}
 
+	@Test
+	public void testIsoceleNOK() {
+		Triangle triangle = new Triangle(10,15,20);
+		
+		assertFalse(triangle.isIsocele());
+	}
+	
+	
 }
