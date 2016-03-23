@@ -40,8 +40,8 @@ public class Triangle {
 		return "Triangle [coteA=" + coteA + ", coteB=" + coteB + ", coteC=" + coteC + "]";
 	}
 	public boolean isRectangle() {
-		// TODO Auto-generated method stub
-		return false;
+		Rectangle rect = new Rectangle();
+			return rect.rectangle(this);
 	}
 	
 	
