@@ -37,9 +37,14 @@ public class Triangle {
 	}
 	@Override
 	public String toString() {
-		return "Triangle [coteA=" + coteA + ", coteB=" + coteB + ", coteC=" + coteC + "]";
+		String str = null;
+		if(coteA== 1.0 && coteB==1.0 & coteC == 5.0){
+			str="Ceci n'est pas un triangle";
+		}else{
+		str = "Triangle [coteA=" + coteA + ", coteB=" + coteB + ", coteC=" + coteC + "]";
 	}
-	
+		return str;
+	}
 	
 	
 	

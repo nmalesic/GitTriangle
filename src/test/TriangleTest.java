@@ -22,7 +22,7 @@ public class TriangleTest {
 		
 		Triangle t = new Triangle(1.0,1.0,5.0);
 		
-		assertEquals("ce n'est pas un triangle",t.toString());
+		assertEquals("Ceci n'est pas un triangle",t.toString());
 		
 	}
 
