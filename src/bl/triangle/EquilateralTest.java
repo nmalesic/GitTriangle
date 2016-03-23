@@ -1,22 +1,13 @@
 package bl.triangle;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
-import java.util.Map;
-
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 
 public class EquilateralTest {
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-
-		
-	}
-	
 	@Test
     public void isEquilateralTest() {
         int ligne1 = 5;
@@ -24,7 +15,7 @@ public class EquilateralTest {
         int ligne3 = 5;
         Equilateral triangle = new Equilateral();
         boolean result = triangle.isEquilateral(ligne1,ligne2,ligne3);
-        assertTrue(result);;
+        assertTrue(result);
     }
 
 	@Test
