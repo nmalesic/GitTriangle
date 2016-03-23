@@ -8,6 +8,9 @@ public class Triangle {
 	
 	
 	
+	public Triangle() {
+		super();
+	}
 	public Triangle(double coteA, double coteB, double coteC) {
 		super();
 		this.coteA = coteA;
