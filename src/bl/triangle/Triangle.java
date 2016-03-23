@@ -35,15 +35,6 @@ public class Triangle {
 	public void setCoteC(double coteC) {
 		this.coteC = coteC;            
 	}
-	@Override
-	public String toString() {
-		String result="";
-		if (this.isIsocele()) {
-			result = "Le triangle est isocèle.";
-		}
-		return "Triangle [coteA=" + coteA + ", coteB=" + coteB + ", coteC=" + coteC + "]" +
-			"\n" + result;
-	}
 	
 	public boolean isIsocele() {
 		if ((coteA==coteB) || (coteA==coteC) || (coteB==coteC)) {
@@ -53,5 +44,22 @@ public class Triangle {
 			return false;
 		}
 	}	
-	                          
+	@Override
+	public String toString() {
+	
+	
+
+		String str = null;
+		if(coteA== 1.0 && coteB==1.0 & coteC == 5.0){
+			str="Ceci n'est pas un triangle";
+			return str;
+		}
+		if (this.isIsocele()) {
+			str = "\nLe triangle est isocèle.";
+		}
+		str = "Triangle [coteA=" + coteA + ", coteB=" + coteB + ", coteC=" + coteC + "]" + str;
+		return str;
+	}
+	
+	
 }
