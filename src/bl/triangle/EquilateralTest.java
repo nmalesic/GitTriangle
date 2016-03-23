@@ -25,7 +25,7 @@ public class EquilateralTest {
         int ligne3 = 5;
         Equilateral triangle = new Equilateral();
         boolean result = triangle.isEquilateral(ligne1,ligne2,ligne3);
-        assertFalse(result);;
+        assertFalse(result);
     }
    
 	
