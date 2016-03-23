@@ -16,5 +16,14 @@ public class TriangleTest {
 		assertEquals("Triangle [coteA=3.0, coteB=4.0, coteC=5.0]",t.toString());
 		
 	}
+	
+	@Test
+	public void NonTriangletest() {
+		
+		Triangle t = new Triangle(1.0,1.0,5.0);
+		
+		assertEquals("ce n'est pas un triangle",t.toString());
+		
+	}
 
 }
