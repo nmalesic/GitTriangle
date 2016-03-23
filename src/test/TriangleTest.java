@@ -1,6 +1,9 @@
 package test;
 
+
+import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
+
 
 import org.junit.Test;
 
@@ -16,6 +19,7 @@ public class TriangleTest {
 		assertEquals("Triangle [coteA=3.0, coteB=4.0, coteC=5.0]",t.toString());
 		
 	}
+
 	
 	@Test
 	public void NonTriangletest() {
@@ -25,5 +29,6 @@ public class TriangleTest {
 		assertEquals("Ceci n'est pas un triangle",t.toString());
 		
 	}
+
 
 }
